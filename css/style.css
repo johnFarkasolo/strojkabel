@@ -1,0 +1,249 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+a {
+	line-height: 24px;
+}
+.about {
+	margin: 25px;
+}
+.about .row {
+	margin-bottom: 20px;
+}
+.logo {
+	margin: 20px 0;
+}
+.logo p {
+	text-align: center;
+	font-size: 26px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #0068d9;
+}
+.logo img {
+	margin-right: -3px;
+}
+.title-head {
+	padding-top: 10px;
+	font-size: 24px;
+	text-align: center;
+}
+.contact-number {
+	font-size: 16px;
+	font-weight: 700;
+	color: #0068d9;
+}
+.button-def {
+	padding: 5px 20px;
+	line-height: 24px;
+	color: #fff;
+	background-color: #00b05a;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+}
+.button-def:active {
+	background-color: #066839;
+}
+.button-def:hover {
+	text-decoration: none;
+	color: #fff;
+}
+	
+.navbar {
+	margin-bottom: 0;
+}
+.navigation {
+	background-color: #0068d9;
+}
+.navigation .navbar a{
+	color: #fff;
+}
+.navbar-toggle {
+	border-color: #fff;
+}
+.navbar-toggle span {
+	background-color: #fff;
+}
+.navbar-nav li a {
+	padding: 12px 45px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 1px;
+}
+.navbar-nav li a:hover {
+	background-color: #007aff;
+}
+.navbar-nav li.active {
+	background-color: #007aff;
+}
+.navbar-nav li a:focus {
+	background-color: #007aff;
+}
+.carousel {
+  height: 400px !important;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.carousel-inner {
+  overflow: visible;
+}
+.carousel-inner img {
+  left: 50%;
+  max-width: none !important;
+  min-height: 400px;
+  min-width: 100%;
+  position: absolute;
+  top: 370px;
+  transform: translate(-50%,-50%);
+}
+.container .carousel-caption {
+	position: relative;
+	display: block;
+	width: 40%;
+	top: 10%;
+	left: 4%;
+	text-align: left;
+}
+.carousel-caption h2{
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 36px;
+}
+.carousel-caption p {
+	font-size: 18px;
+}
+.border-item {
+	position: absolute;
+	border: 5px solid #fff;
+	top: 50px;
+	right: 11%;
+	height: 310px;
+	width: 78%;
+}
+.carousel-indicators li,
+.carousel-indicators li.active {
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+}
+ol.carousel-indicators {
+	bottom: 16px;
+	width: 20%;
+	left: 70%;
+	background-color: #fff;
+	padding-top: 6px;
+	border-radius: 50%;
+}
+ol.carousel-indicators .active {
+	background-color: rgba(0, 104, 217, 0.67);
+}
+.carousel-indicators li {
+	background-color: rgba(199, 103, 93, 0.67);
+	border: none;
+}
+.carousel-indicators li.active {
+	width: 21px;
+	height: 21px;
+}
+/*.border-item ::after {
+	content: "";
+	position: absolute;
+	border-bottom: 5px solid #fff;
+	bottom: -37.123%;
+	right: -140%;
+	width: 95%;
+}
+.border-item ::before {
+	content: "";
+	position: absolute;
+	border-bottom: 5px solid #fff;
+	bottom: -37.123%;
+	left: -10%;
+	width: 95%;
+}*/
+.popular-products {
+	background-color: #fff;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.title {
+	text-align: center;
+	margin: 40px 60px;
+}
+	.title h2{
+		position: relative;
+		line-height: 24px;
+		font-weight: 500;
+		font-size: 32px;
+		text-transform: uppercase;
+		padding: 0 60px;
+		display: inline;
+		z-index: 2;
+		background-color: #fff;
+	}
+	.title::after {
+		content: "";
+		position: relative;
+		border-bottom: 1px solid #d5d5d5;
+		width: 100%;
+		top: -17px;
+		z-index: 1;
+		display: block;
+	}	
+.popular-products p {
+	padding-top: 10px;
+}
+.price {
+	position: absolute;
+    bottom: 350px;
+    left: -48px;
+}
+	.price-btn {
+		position: fixed;
+		line-height: 24px;
+		font-weight: 700;
+		letter-spacing: 1px;
+		background-color: #c8675e;
+		color: #fff;
+		padding: 10px 15px;
+		border-radius: 0 0 4px 4px;
+		z-index: 300;
+		transform: rotate(270deg);
+	}	
+	.price-btn:hover {
+		background-color: #e86154;
+		color: #fff;
+		text-decoration: none;
+	}
+.regard {
+	margin-bottom: 70px;
+}
+.regard-content {
+	background-color: #e9f0f6;
+}
+.regard .container {
+	text-align: center;
+	padding: 45px;
+	padding-top: 35px;
+}
+.regard img {
+	padding-bottom: 5px;
+	padding-top: 30px;
+}
+.company {
+	margin-bottom: 70px;
+}
+.company-slider img {
+	margin: 0 auto;
+	outline: none;
+}
+footer {
+	padding: 10px 0 0;
+	background-color: #e9f0f6;
+	font-size: 14px;
+}
